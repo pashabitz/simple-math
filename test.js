@@ -1,4 +1,4 @@
-import { add, subtract } from "./index.js";
+import { add } from "./index.js";
 let successCount = 0;
 
 // Test cases for addition
