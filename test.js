@@ -6,6 +6,7 @@ for (const testCase of [
   { input: [1, 2], expected: 3 },
   { input: [5, 7], expected: 12 },
   { input: [10, 20], expected: 30 },
+  { input: [-1, -2], expected: -3 },
 ]) {
   const result = add(...testCase.input);
   if (result !== testCase.expected) {
